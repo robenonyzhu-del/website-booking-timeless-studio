@@ -34,19 +34,17 @@ Sistem ini sudah menangani seluruh *flow* bisnis studio secara otomatis: mulai d
 3. **Siapkan Environment Variables (.env.local)**
    Buat file `.env.local` di *root directory* dan isi dengan parameter berikut:
    ```env
-   NEXT_PUBLIC_FIREBASE_API_KEY="xxx"
-   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN="xxx"
-   NEXT_PUBLIC_FIREBASE_PROJECT_ID="xxx"
-   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET="xxx"
-   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID="xxx"
-   NEXT_PUBLIC_FIREBASE_APP_ID="xxx"
-   NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID="xxx"
+NEXT_PUBLIC_FIREBASE_API_KEY="AIzaSyDgBWKUECR94nyTemi2PUDoSucDi2WVhss"
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN="timeless-studio-booking.firebaseapp.com"
+NEXT_PUBLIC_FIREBASE_PROJECT_ID="timeless-studio-booking"
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET="timeless-studio-booking.firebasestorage.app"
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID="98723895742"
+NEXT_PUBLIC_FIREBASE_APP_ID="1:98723895742:web:b8d40b698d06397d9601ef"
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID="G-Y69PBB2JKL"
+RONZZPAY_API_KEY="RP-2f9faa19-4f3b-4945-bcbd-a806b803775c"
+EMAIL_USER="roben.onyzhu@gmail.com"
+EMAIL_PASS="xfrdjbqktjcwzaxt"
 
-   RONZZPAY_API_KEY="xxx"
-
-   # Untuk pengiriman email otomatis ke pelanggan
-   EMAIL_USER="email.studio@gmail.com"
-   EMAIL_PASS="16_digit_app_password_google"
    ```
 
 4. **Jalankan Development Server**
