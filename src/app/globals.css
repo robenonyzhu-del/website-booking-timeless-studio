@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+  
+  --color-studio-50: #fafafa;
+  --color-studio-100: #f4f4f5;
+  --color-studio-200: #e4e4e7;
+  --color-studio-300: #d4d4d8;
+  --color-studio-400: #a1a1aa;
+  --color-studio-500: #71717a;
+  --color-studio-600: #52525b;
+  --color-studio-700: #3f3f46;
+  --color-studio-800: #27272a;
+  --color-studio-900: #18181b;
+}
+
+@layer utilities {
+  .btn-primary {
+    @apply bg-studio-900 text-white border border-studio-900 transition-all duration-200;
+  }
+  .btn-primary:hover {
+    @apply bg-studio-700;
+  }
+  .btn-outline {
+    @apply bg-transparent text-studio-900 border border-studio-900 transition-all duration-200;
+  }
+  .btn-outline:hover {
+    @apply bg-studio-900 text-white;
+  }
+  .slot-btn.selected {
+    @apply bg-studio-900 text-white border-studio-900;
+  }
+}
+
+body {
+  background-color: #fafafa;
+  color: #18181b;
+}
