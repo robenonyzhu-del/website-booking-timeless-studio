@@ -22,7 +22,7 @@ Sistem ini sudah menangani seluruh *flow* bisnis studio secara otomatis: mulai d
 
 1. **Clone repository ini**
    ```bash
-   git clone https://github.com/Renohidayat/website-booking-timeless-studio.git
+   git clone https://github.com/robenonyzhu-del/website-booking-timeless-studio
    cd website-booking-timeless-studio
    ```
 
